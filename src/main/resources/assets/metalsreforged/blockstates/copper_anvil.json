@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "metalsreforged:block/copper_anvil",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "metalsreforged:block/copper_anvil",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "metalsreforged:block/copper_anvil"
+    },
+    "facing=west": {
+      "model": "metalsreforged:block/copper_anvil",
+      "y": 90
+    }
+  }
+}

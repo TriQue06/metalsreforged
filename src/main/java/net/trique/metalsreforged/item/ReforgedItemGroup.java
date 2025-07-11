@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.trique.metalsreforged.MetalsReforged;
+import net.trique.metalsreforged.block.ReforgedBlocks;
 
 public class ReforgedItemGroup {
     public static ItemGroup REFORGEDITEMGROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(MetalsReforged.MOD_ID, "reforgeditemgroup"),
@@ -20,6 +21,7 @@ public class ReforgedItemGroup {
                         entries.add(ReforgedItems.ROSE_GOLD_CHESTPLATE);
                         entries.add(ReforgedItems.ROSE_GOLD_LEGGINGS);
                         entries.add(ReforgedItems.ROSE_GOLD_BOOTS);
+                        entries.add(ReforgedBlocks.COPPER_ANVIL);
                     }).build());
 
             public static void registerReforgedGroups() {}

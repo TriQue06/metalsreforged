@@ -10,6 +10,5 @@ public class MetalsReforgedDataGenerator implements DataGeneratorEntrypoint {
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 		pack.addProvider(ReforgedModelProvider::new);
-		//pack.addProvider(ReforgedRecipeProvider::new);
 	}
 }
