@@ -1,6 +1,0 @@
-{
-  "parent": "metalsreforged:block/template_copper_anvil",
-  "textures": {
-    "top": "metalsreforged:block/copper_anvil_top"
-  }
-}

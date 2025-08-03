@@ -11,8 +11,6 @@ import net.minecraft.util.Identifier;
 import net.trique.metalsreforged.MetalsReforged;
 
 public class ReforgedBlocks {
-    public static final Block COPPER_ANVIL = registerBlock("copper_anvil",
-            new AnvilBlock(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_ORANGE).requiresTool().strength(5.0F, 1200F).pistonBehavior(PistonBehavior.BLOCK).sounds(BlockSoundGroup.COPPER).sounds(BlockSoundGroup.ANVIL)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

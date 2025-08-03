@@ -27,13 +27,23 @@ public class ReforgedArmorMaterials{
         return RegistryEntry.of(material);
     }
 
-    public static final RegistryEntry<ArmorMaterial> ROSE_GOLD = registerMaterial("rose_gold",
+    public static final RegistryEntry<ArmorMaterial> AMARYLLIUM = registerMaterial("amaryllium",
             Map.of(
-                    Type.HELMET,2,
-                    Type.CHESTPLATE, 5,
-                    Type.LEGGINGS, 3,
-                    Type.BOOTS,1
-            ),15, SoundEvents.ITEM_ARMOR_EQUIP_GOLD,
-            () -> Ingredient.ofItems(ReforgedItems.ROSE_GOLD_INGOT),3.0f,0.1f,false);
+                    Type.BOOTS,3,
+                    Type.LEGGINGS, 6,
+                    Type.CHESTPLATE, 8,
+                    Type.HELMET,3,
+                    Type.BODY, 11
+            ),15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
+            () -> Ingredient.ofItems(ReforgedItems.AMARYLLIUM_INGOT),3.0f,0.1f,false);
 
+    public static final RegistryEntry<ArmorMaterial> CRIMSONITE = registerMaterial("crimsonite",
+            Map.of(
+                    Type.BOOTS,3,
+                    Type.LEGGINGS, 6,
+                    Type.CHESTPLATE, 8,
+                    Type.HELMET,3,
+                    Type.BODY, 11
+            ),15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE,
+            () -> Ingredient.ofItems(ReforgedItems.CRIMSONITE_INGOT),3.0f,0.1f,false);
 }

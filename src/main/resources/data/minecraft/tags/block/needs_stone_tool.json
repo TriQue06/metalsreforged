@@ -1,8 +1,5 @@
 {
   "replace": false,
   "values": [
-    "metalsreforged:copper_anvil",
-    "metalsreforged:copper_chipped_anvil",
-    "metalsreforged:copper_damaged_anvil"
   ]
 }

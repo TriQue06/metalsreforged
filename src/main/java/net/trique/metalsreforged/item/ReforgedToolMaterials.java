@@ -2,6 +2,7 @@ package net.trique.metalsreforged.item;
 
 import com.google.common.base.Suppliers;
 import net.minecraft.block.Block;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.BlockTags;
@@ -10,7 +11,8 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ReforgedToolMaterials implements ToolMaterial {
-    ROSE_GOLD(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 453, 10.0f, 2.5f, 20, () -> Ingredient.ofItems(ReforgedItems.ROSE_GOLD_INGOT));
+    AMARYLLIUM(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 2031, 9.0F, 4.0F, 15, () -> Ingredient.ofItems(ReforgedItems.AMARYLLIUM_INGOT)),
+    CRIMSONITE(BlockTags.INCORRECT_FOR_NETHERITE_TOOL, 2031, 9.0F, 4.0F, 15, () -> Ingredient.ofItems(ReforgedItems.CRIMSONITE_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

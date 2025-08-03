@@ -19,13 +19,12 @@ public class ReforgedModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ReforgedItems.ROSE_GOLD_INGOT, Models.GENERATED);
         itemModelGenerator.register(ReforgedItems.AMETHYST_INGOT, Models.GENERATED);
 
-        itemModelGenerator.registerArmor(((ArmorItem) ReforgedItems.ROSE_GOLD_HELMET));
-        itemModelGenerator.registerArmor(((ArmorItem) ReforgedItems.ROSE_GOLD_CHESTPLATE));
-        itemModelGenerator.registerArmor(((ArmorItem) ReforgedItems.ROSE_GOLD_LEGGINGS));
-        itemModelGenerator.registerArmor(((ArmorItem) ReforgedItems.ROSE_GOLD_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ReforgedItems.REFORGED_GOLD_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ReforgedItems.REFORGED_GOLD_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ReforgedItems.REFORGED_GOLD_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ReforgedItems.REFORGED_GOLD_BOOTS));
 
     }
 }
